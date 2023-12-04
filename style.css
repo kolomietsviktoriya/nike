@@ -1,0 +1,226 @@
+:root {
+    --header-color: #012D63 ;
+    --fff-color: white;
+    --header-color-text: #C7C7C7;
+    --bg-button: #8E32C6;
+    --span-color: #D8D8D8;
+    --footer-bg: #021635;
+    --input-color: #959595;
+}
+
+.container{
+    width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: var(--header-color);
+    
+    
+}
+
+.nav-list{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 33px;
+    
+}
+
+
+.nav-item{
+    margin-left: 29px;
+    font-size: 24px;
+   
+    
+}
+
+.nav-link{
+    color: var(--header-color-text);
+    font-family: Roboto;
+    font-weight: 300;
+}
+
+.nav-link:hover{
+    color: var(--fff-color);
+}
+
+.header-wrap{
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+
+.header-paragraf{
+    color: var(--header-color-text);
+    font-family: Roboto;
+    font-size: 24px;
+    margin-left: 73px;
+}
+
+.header-span{
+    color: var(--fff-color);
+}
+
+.header-logo{
+    width: 100px;
+    height: 60px;
+    margin-right: 112px;
+
+}
+
+.header-list{
+    margin-left: 37px;
+    
+}
+
+.header-item{
+    
+}
+
+.container-hero{
+    
+}
+
+.hero{
+    background-image: url(./img/bgnike.webp);
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    padding-bottom: 183px;
+    
+}
+.hero-img{
+    margin-top: 91px;
+    width: 160px;
+    height: 120px;
+}
+.hero-text{
+    width: 178px;
+    height: 86px;
+    color: var(--fff-color);
+    font-weight: 400;
+    font-family: PT Serif;
+    font-size: 48px;
+    margin-top: -32px;
+    margin-left: 25px;
+}
+
+.hero-title{
+    font-size: 144px;
+    color: var(--fff-color);
+    font-family: Playfair Display;
+    font-size: 144px;
+    font-weight: 400;
+    margin-bottom: -18px;
+}
+
+.hero-title1{
+    font-family: Playfair Display;
+    font-size: 72px;
+    font-weight: 400;
+    color: var(--fff-color);
+}
+
+.hero-text1{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--fff-color);
+    margin-top: 12px;
+    margin-bottom: 41px;
+}
+
+.button-hero{
+    border-radius: 10px;
+    background: var(--bg-button);
+    width: 254px;
+    height: 67px;
+    border: none;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--fff-color);
+    
+}
+
+.button-hero-text{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--fff-color);
+}
+.benefits{
+    background-image: url(./img/bg3.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 105px;
+    padding-bottom: 105px;
+    
+} 
+
+
+
+.list-benefits{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border:  solid var(--bg-button);
+    width: 1110px;
+    height: 396px;
+}
+
+.benefits-img{
+    width: 240px;
+    height: 240px;
+}
+
+
+
+.benefits-title{
+    color: var(--fff-color);
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.item-benefits:nth-child(2){
+    border-left: 1px solid var(--fff-color);
+    border-right: 1px solid var(--fff-color);
+    padding-left: 95px;
+    padding-right: 95px;
+
+}
+.reviews{
+    background-image: url(./img/bg2.webp),
+     url(./img/flowers.webp);
+    background-repeat: no-repeat, no-repeat;
+    margin-left: auto, auto;
+    margin-right: auto, auto;
+    background-position: center, bottom left;
+    background-size: cover, 45px;
+    margin-top: 2px;
+    
+}
+
+.reviews-text{
+    font-family: Roboto;
+    font-size: 24px;
+    color: #FFF;
+    font-weight: 400;
+    padding-left: 18px;
+    padding-right: 9px;
+    width: 228px;
+    margin-bottom: 8px;
+    
+
+}
