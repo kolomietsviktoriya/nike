@@ -257,7 +257,10 @@
     font-weight: 400;
 }
 
-
+.reviews-item{
+    padding-left: 18px;
+    padding-bottom: 29px;
+}
 
 
 .reviews-item:nth-child(2){
@@ -302,8 +305,6 @@
 }
 
 .div-reviews{
-   margin-left: 18px;
-   margin-bottom: 29px;
    margin-top: 47px;
    display: flex;
 }
